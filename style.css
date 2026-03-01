@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f8f7fb; /* svijetla, skoro bijela pozadina */
+    background-color: #f8f7fb; 
     color: #2c2c2c;
 }
 
@@ -12,7 +12,7 @@ body {
 .sidebar {
     width: 220px;
     min-height: 100vh;
-    background: #6a4bcf; /* lijepa ljubicasta */
+    background: #6a4bcf; 
     color: white;
     position: fixed;
     display: flex;
@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar .nav-link {
-    color: #e0d9f5; /* svijetla boja za kontrast */
+    color: #e0d9f5; 
     padding: 14px 20px;
     font-weight: 500;
     border-radius: 8px;
@@ -33,7 +33,7 @@ body {
 
 .sidebar .nav-link:hover,
 .sidebar .nav-link.active {
-    background: #5438a3; /* tamnija ljubicasta */
+    background: #5438a3; 
     color: #fff;
     transform: scale(1.02);
 }
@@ -73,7 +73,7 @@ body {
 
 .table th {
     font-weight: 600;
-    background: #f1edfb; /* svijetla ljubicasta za header */
+    background: #f1edfb; 
     color: #4b2fcf;
     padding: 12px 15px;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .btn-primary {
-    background: #8c63ff; /* jaca ljubicasta */
+    background: #8c63ff; 
     border: none;
     color: white;
     padding: 10px 18px;
@@ -95,4 +95,5 @@ body {
 .btn-primary:hover {
     background: #6a4bcf;
     transform: scale(1.05);
+
 }
