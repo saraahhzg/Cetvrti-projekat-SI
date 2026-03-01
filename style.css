@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f7fb; /* svijetla, skoro bijela pozadina */
+    color: #2c2c2c;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background: #6a4bcf; /* lijepa ljubicasta */
+    color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+}
+
+.sidebar .nav-link {
+    color: #e0d9f5; /* svijetla boja za kontrast */
+    padding: 14px 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin: 4px 10px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background: #5438a3; /* tamnija ljubicasta */
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.main {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+    padding: 20px;
+}
+
+.topbar {
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.table th {
+    font-weight: 600;
+    background: #f1edfb; /* svijetla ljubicasta za header */
+    color: #4b2fcf;
+    padding: 12px 15px;
+}
+
+.table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #f0effa;
+}
+
+.btn-primary {
+    background: #8c63ff; /* jaca ljubicasta */
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #6a4bcf;
+    transform: scale(1.05);
+}
